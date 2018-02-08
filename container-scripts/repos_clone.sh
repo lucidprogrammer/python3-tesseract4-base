@@ -48,5 +48,5 @@ cp ${TESSDATA_FAST}/equ.traineddata ${TESSDATA_LEGACY}/equ.traineddata
 wget -O ${TESSDATA_LEGACY}/eng.traineddata https://github.com/tesseract-ocr/tessdata/raw/master/eng.traineddata
 wget -O ${TESSDATA_LEGACY}/chi_sim.traineddata https://github.com/tesseract-ocr/tessdata/raw/master/chi_sim.traineddata
 wget -O ${TESSDATA_LEGACY}/chi_sim_vert.traineddata https://github.com/tesseract-ocr/tessdata/raw/master/chi_sim_vert.traineddata
-wget -O ${TESSDATA_LEGACY}/chi_tra.trainedda tahttps://github.com/tesseract-ocr/tessdata/raw/master/chi_tra.traineddata
+wget -O ${TESSDATA_LEGACY}/chi_tra.trainedda https://github.com/tesseract-ocr/tessdata/raw/master/chi_tra.traineddata
 wget -O ${TESSDATA_LEGACY}/chi_tra_vert.traineddata https://github.com/tesseract-ocr/tessdata/raw/master/chi_tra_vert.traineddata
