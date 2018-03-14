@@ -10,5 +10,5 @@ FROM lucidprogrammer/python3-tesseract4-base:latest
 COPY --from=base /work/gdrive /usr/local/bin
 RUN chmod +x /usr/local/bin/gdrive
 
-RUN apt-get update && apt-get install -y git ca-certificates poppler-utils && \
+RUN apt-get update && apt-get install -y git ca-certificates poppler-utils pdftk && \
     rm -rf /var/lib/apt/lists/*
